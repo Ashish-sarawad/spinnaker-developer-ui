@@ -1,0 +1,113 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.box {
+  border: 2px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  width: 60%;
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.1);
+  background-color: white; /* Set background color to white */
+  padding: 20px; /* Add padding to container */
+}
+
+.heading {
+  font-size: 28px;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 10px;
+  font-family: Bahnschrift; /* Change the font family here */
+  
+}
+
+.dropdown {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  font-family: Bahnschrift; /* Change the font family here */
+  font-weight: bold;
+}
+
+.pipeline-table {
+  margin-top: 20px;
+  font-family: Bahnschrift; /* Change the font family here */
+  font-weight: bold;
+  text-align: left;
+}
+
+.pipeline-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.pipeline-table th, .pipeline-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  
+}
+
+.pipeline-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.trigger-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: Bahnschrift; /* Change the font family here */
+  
+}
+
+.trigger-button:hover {
+  background-color: #0056b3;
+}
+
+.fa-spinner {
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.fa-check-circle {
+  color: #28a745;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+*{
+  margin: 100;
+  padding: 2px;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(120deg,#0538f1e5, #d1d95a);
+  height: 100vh;
+  overflow-y: auto;
+}
+
+
+
