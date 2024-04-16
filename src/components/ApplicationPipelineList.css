@@ -71,7 +71,8 @@
   color: #fff;
   border: none;
   padding: 8px 16px;
-  border-radius: 4px;
+  border-radius: 5px;
+  margin: 5px 320px;
   cursor: pointer;
   font-family: Bahnschrift; /* Change the font family here */
   
@@ -109,5 +110,51 @@ body{
   overflow-y: auto;
 }
 
+.view-endpoint-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-family: Bahnschrift;
+}
 
+.endpoint-table {
+  margin-top: 20px;
+}
+
+.endpoint-table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.endpoint-table th, .endpoint-table td {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+.endpoint-table th {
+  background-color: #f0f0f0;
+  font-weight: bold;
+  text-align: left;
+}
+
+.view-endpoint-button {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 270px;
+}
+
+.view-endpoint-button:hover {
+  background-color: #43cd4a;
+}
 
